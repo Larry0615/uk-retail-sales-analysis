@@ -44,3 +44,11 @@ The company wants to understand:
    - Suggested actions for marketing and sales teams
 
 ## 📂 Repository Structure
+
+## 📈 Key Findings (To be filled after analysis)
+- **Example**: November and December see the highest sales peaks due to holiday shopping.
+- **Example**: Customers from the Netherlands have a higher average basket value compared to other countries.
+
+## 📢 Business Recommendations (To be filled after analysis)
+- **Example**: Introduce targeted marketing campaigns in high-performing months.
+- **Example**: Expand product offerings in top-performing countries.
