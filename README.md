@@ -1,87 +1,95 @@
-# 🛍️ UK Retail Sales Analysis
+# 🛍️ UK Retail Sales Analysis & Customer Segmentation
+
+This project analyzes over 540,000 transactions from a UK-based online retailer using Python.  
+The main objective is to extract actionable insights from sales data through exploratory analysis, customer segmentation (RFM), and Pareto analysis.
 
 ---
 
-## 📌 Project Overview
+## 📌 Project Goals
 
-This project analyzes over 540,000 retail transactions from a UK-based online retailer.  
-The goal is to uncover sales trends, identify high-value customer segments using RFM analysis, and assess revenue concentration using Pareto analysis to support strategic decision-making.
-
----
-
-## 🔍 Business Objectives
-
-The company wants to understand:
-- 📦 What products generate the most revenue?
-- 📅 What months or seasons perform best in sales?
-- 👤 Which customer segments are most valuable?
-- 🌍 Are there regional sales trends they can optimize?
+- Identify top-selling products and peak sales months
+- Segment customers based on behavior (RFM)
+- Discover high-value vs. low-value customers
+- Use Pareto analysis to assess revenue concentration (80/20 rule)
+- Provide data-driven business recommendations
 
 ---
 
-## 🛠️ Tools & Technologies Used
+## 📊 Dataset Information
 
-- Python: pandas, NumPy, matplotlib, seaborn
-- SQL (optional queries)
-- Tableau (for interactive dashboard)
-- Excel / Google Sheets (supporting calculations)
-- Jupyter Notebook + Git + GitHub (for version control)
+- **Source**: [UCI Machine Learning Repository – Online Retail Dataset](https://archive.ics.uci.edu/dataset/352/online+retail)
+- **Records**: 541,909
+- **Features**: InvoiceNo, StockCode, Description, Quantity, InvoiceDate, UnitPrice, CustomerID, Country
+- **Time Period**: Dec 2010 – Dec 2011
 
 ---
 
-## 📊 Project Workflow
+## 🧰 Tools & Libraries Used
 
-### 1. 🔍 Data Source
-- [Online Retail Dataset – UCI Repository](https://archive.ics.uci.edu/dataset/352/online+retail)
-- One year of e-commerce transactions from 2010–2011
+- **Python** (Jupyter Notebook)
+- `pandas`, `numpy`
+- `matplotlib`, `seaborn`
+- `openpyxl` (for Excel import)
+- Git & GitHub (version control)
 
-### 2. 🧼 Data Cleaning
-- Removed nulls and canceled invoices
-- Created new metrics (e.g., `SalesRevenue = Quantity * UnitPrice`)
-- Converted dates, handled customer IDs
+---
 
-### 3. 📈 Exploratory Data Analysis
-- Top 10 best-selling products by quantity
-- Monthly revenue trends 
-- Top countries outside the UK by sales revenue
-- Top 10 customers by revenue
+## 🔍 Analysis Workflow
 
-### 4. 📊 RFM Segmentation
-- **Recency, Frequency, Monetary** scores (1–5 scale)
-- Segmented customers into: 🎯 VIP, 💎 Loyal, 🔁 Potential Loyalist,
-  ⚠️ At Risk, and ❌ Lost.
+### 1. Data Cleaning
+- Removed missing values
+- Excluded canceled transactions
+- Created a new column: `SalesRevenue = Quantity × UnitPrice`
+- Converted date formats and ensured correct types
 
-### 5. 📉 Pareto Analysis (Bonus Insight)
-- Confirmed **~22% of customers account for ~80% of total revenue**
-- Revealed high revenue concentration
-- Business implication: prioritize VIP and Loyal segments
+### 2. Exploratory Data Analysis (EDA)
+- 📦 Top 10 products by quantity sold
+- 📆 Monthly revenue trends
+- 🌍 Country-wise revenue (excluding UK)
+- 💼 Top 10 customers by total revenue
+
+### 3. RFM Segmentation
+Used **Recency, Frequency, and Monetary** metrics to segment customers:
+- Scored each metric from 1–5
+- Combined into RFM Segment Codes (e.g., `545`, `112`)
+- Labeled customers: `VIP`, `Loyal`, `Potential Loyalist`, `At Risk`, `Lost`
+
+### 4. Pareto Analysis (80/20 Rule)
+- Ranked customers by revenue
+- Found that ~22% of customers contribute ~80% of total revenue
+- Confirmed classic revenue concentration patterns
 
 ---
 
 ## 📈 Key Findings
 
-- 🛍️ **Top-selling product**: "WORLD WAR 2 GLIDERS ASSTD DESIGNS"
-- 💰 **Top customer** generated over £279,000 in revenue
-- 🌍 **Top countries** outside UK: Netherlands, EIRE, Germany
-- 📆 **Peak sales months**: November and December
-- 🧠 **Pareto insight**: ~22% of customers contribute 80% of sales
-- 📊 **Segment share**:
-  - 25.5% Potential Loyalists
-  - 22.7% Loyal
-  - 21.7% VIP
-  - 17.9% At Risk
-  - 12.3% Lost
+| Insight | Details |
+|--------|---------|
+| 🛍️ Best-Selling Product | "WORLD WAR 2 GLIDERS ASSTD DESIGNS" |
+| 💰 Top Customer Revenue | £279,489 |
+| 🌍 Top Countries (Ex-UK) | Netherlands, EIRE, Germany |
+| 📆 Peak Months | November and December |
+| 🧠 Pareto Rule | Top 22% of customers contribute 80%+ of revenue |
+| 📊 Segment Sizes | 25.5% Potential Loyalists, 22.7% Loyal, 21.7% VIP, 17.9% At Risk, 12.3% Lost |
 
 ---
 
 ## 📢 Business Recommendations
 
-- 🎯 Prioritize top 20–25% of customers (VIPs & Loyal) with loyalty programs and personalized campaigns
-- 🧪 A/B test email or seasonal offers targeting “At Risk” group to reduce churn
-- 🌍 Expand campaigns in high-performing countries like the Netherlands and EIRE
-- 📆 Leverage seasonal peaks in Q4 (especially Nov/Dec) with inventory and promotions
+- Prioritize VIPs and Loyal customers for retention efforts
+- Use targeted win-back campaigns for At Risk segments
+- Expand marketing in countries like Netherlands and Ireland
+- Align stock & promotions with Q4 holiday season peaks
 
 ---
 
-## 📂 Repository Structure
+## 📸 Sample Visuals
+
+| Segment Distribution (Pie Chart) | Revenue Concentration (Pareto Chart) |
+|:----------------------------------:|:--------------------------------------:|
+| ![Pie](visuals/customer_segments_pie.png) | ![Pareto](visuals/pareto_chart.png) |
+
+---
+
+## 📂 Folder Structure
 
