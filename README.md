@@ -2,7 +2,7 @@
 
 ---
 
-## 📌 Project Overview
+## 📌 Project Overview 
 
 This project analyzes over 540,000 historical transactions from a UK-based online retailer.  
 The goal is to uncover customer behavior, product performance, and revenue concentration through RFM segmentation and Pareto analysis, enabling data-driven business decisions.
