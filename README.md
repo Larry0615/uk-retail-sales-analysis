@@ -90,6 +90,7 @@ Using **Recency**, **Frequency**, and **Monetary** scoring:
 ---
 
 ## 📂 Repository Structure
+
 uk-retail-sales-analysis/
 │
 ├── data/
