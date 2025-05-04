@@ -91,7 +91,7 @@ Using **Recency**, **Frequency**, and **Monetary** scoring:
 
 ## 📂 Repository Structure
 
-uk-retail-sales-analysis/
+```uk-retail-sales-analysis/
 │
 ├── data/
 │ └── raw/ ← Original dataset
@@ -106,7 +106,7 @@ uk-retail-sales-analysis/
 │ ├── customer_segments_pie.png
 │ └── pareto_chart.png
 │
-└── README.md
+└── README.md```
 
 ---
 
