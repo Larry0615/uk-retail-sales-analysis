@@ -90,4 +90,51 @@ Using **Recency, Frequency, and Monetary** scoring:
 ---
 
 ## 📂 Repository Structure
+uk-retail-sales-analysis/
+│
+├── data/
+│ └── raw/ ← Original dataset
+├── notebooks/
+│ └── uk_retail_analysis.ipynb ← Full analysis notebook
+├── visuals/
+│ ├── top_10_products.png
+│ ├── monthly_sales.png
+│ ├── customer_segments_bar.png
+│ ├── customer_segments_pie.png
+│ └── pareto_chart.png
+└── README.md
 
+
+---
+
+## 📈 Key Findings
+
+- 🛍️ Best-selling product: **WORLD WAR 2 GLIDERS ASSTD DESIGNS**
+- 💰 Top customer generated over **£279,000** in revenue
+- 🌍 Top countries (excluding UK): **Netherlands, EIRE, Germany**
+- 📆 Peak sales months: **November and December**
+- 📊 RFM Segment distribution:
+  - 25.5% Potential Loyalists
+  - 22.7% Loyal
+  - 21.7% VIP
+  - 17.9% At Risk
+  - 12.3% Lost
+- 📉 Pareto Insight: ~22% of customers drive ~80% of revenue
+
+---
+
+## 📢 Business Recommendations
+
+- 🎯 Focus on retaining **VIP and Loyal** customers with personalized campaigns
+- 🧪 Re-engage **At Risk** customers through win-back offers
+- 🌍 Expand campaigns in top-performing international markets
+- 📆 Leverage **Q4 seasonality** by increasing stock and promotions in Nov/Dec
+- 📬 Use RFM scores for **email segmentation and personalization**
+
+---
+
+## 🚀 Future Work (Optional)
+
+- Develop a Tableau dashboard for real-time reporting
+- Build predictive CLV (Customer Lifetime Value) model
+- Automate RFM scoring using classes/functions
