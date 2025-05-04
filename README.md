@@ -112,10 +112,8 @@ Using **Recency**, **Frequency**, and **Monetary** scoring:
 - 📉 Pareto curve: Revenue concentration vs. customer base
 
 ---
-
-## 📂 Repository Structure
-
 ```
+## 📂 Repository Structure
 uk-retail-sales-analysis/
 │
 ├── data/
