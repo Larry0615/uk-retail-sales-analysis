@@ -78,7 +78,31 @@ Using **Recency**, **Frequency**, and **Monetary** scoring:
 - Confirmed strong revenue concentration and top-customer dependency
 
 ---
+## 📈 Key Findings
 
+- 🛍️ **Top-selling product**: WORLD WAR 2 GLIDERS ASSTD DESIGNS  
+- 💰 **Top customer** generated over £279,000 in revenue  
+- 🌍 **Top countries** (excluding UK): Netherlands, EIRE, Germany  
+- 📆 **Peak sales months**: November and December  
+- 📊 **RFM Segment distribution**:
+  - 25.5% Potential Loyalists  
+  - 22.7% Loyal  
+  - 21.7% VIP  
+  - 17.9% At Risk  
+  - 12.3% Lost  
+- 📉 **Pareto Insight**: ~22% of customers drive ~80% of total revenue
+
+---
+
+## 📢 Business Recommendations
+
+- 🎯 Focus on retaining **VIP and Loyal** customers through personalized engagement
+- 🧪 Launch **win-back campaigns** for **At Risk** customers
+- 🌍 Expand marketing in top-performing international countries
+- 📆 Prepare for **Q4 sales peaks** with increased inventory and targeted promotions
+- 📬 Use RFM segmentation for **email marketing and personalization**
+
+---
 ## 📊 Visualizations Created
 
 - 📦 Bar chart: Top 10 best-selling products  
@@ -107,32 +131,6 @@ Using **Recency**, **Frequency**, and **Monetary** scoring:
 │ └── pareto_chart.png
 │
 └── README.md```
-
----
-
-## 📈 Key Findings
-
-- 🛍️ **Top-selling product**: WORLD WAR 2 GLIDERS ASSTD DESIGNS  
-- 💰 **Top customer** generated over £279,000 in revenue  
-- 🌍 **Top countries** (excluding UK): Netherlands, EIRE, Germany  
-- 📆 **Peak sales months**: November and December  
-- 📊 **RFM Segment distribution**:
-  - 25.5% Potential Loyalists  
-  - 22.7% Loyal  
-  - 21.7% VIP  
-  - 17.9% At Risk  
-  - 12.3% Lost  
-- 📉 **Pareto Insight**: ~22% of customers drive ~80% of total revenue
-
----
-
-## 📢 Business Recommendations
-
-- 🎯 Focus on retaining **VIP and Loyal** customers through personalized engagement
-- 🧪 Launch **win-back campaigns** for **At Risk** customers
-- 🌍 Expand marketing in top-performing international countries
-- 📆 Prepare for **Q4 sales peaks** with increased inventory and targeted promotions
-- 📬 Use RFM segmentation for **email marketing and personalization**
 
 ---
 
