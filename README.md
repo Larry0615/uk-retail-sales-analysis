@@ -1,4 +1,4 @@
-# 🛍️ UK Retail Sales Analysis
+#  UK Retail Sales Analysis
 
 ---
 
@@ -12,11 +12,11 @@ The goal is to uncover customer behavior, product performance, and revenue conce
 ## 🔍 Business Problem
 
 The company seeks to answer:
-- 🛍️ What products generate the most revenue?
-- 📆 What months or seasons perform best in sales?
-- 👤 Which customer segments are most valuable?
-- 🌍 Are there regional sales trends they can optimize?
-- 💰 Is most of the revenue driven by a small set of customers?
+-  What products generate the most revenue?
+-  What months or seasons perform best in sales?
+-  Which customer segments are most valuable?
+-  Are there regional sales trends they can optimize?
+-  Is most of the revenue driven by a small set of customers?
 
 ---
 
