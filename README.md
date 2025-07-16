@@ -62,11 +62,11 @@ Using **Recency**, **Frequency**, and **Monetary** scoring:
 - Customers scored from 1–5 on each metric
 - Combined into RFM Segment Codes (e.g., `545`, `112`)
 - Segments labeled as:
-  - 🎯 VIP  
-  - 💎 Loyal  
-  - 🕵️‍♂️ Potential Loyalist  
-  - ⚠️ At Risk  
-  - ❌ Lost
+  -  VIP  
+  -  Loyal  
+  -  Potential Loyalist  
+  -  At Risk  
+  -  Lost
 
 ---
 
