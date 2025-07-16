@@ -32,7 +32,7 @@ The company seeks to answer:
 
 ##  Project Workflow
 
-### 🔗 Data Source
+###  Data Source
 - UCI Machine Learning Repository – [Online Retail Dataset](https://archive.ics.uci.edu/dataset/352/online+retail)
 - Covers one year of UK-based e-commerce transactions (Dec 2010 – Dec 2011)
 
