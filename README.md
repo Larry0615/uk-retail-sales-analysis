@@ -50,7 +50,7 @@ The company seeks to answer:
 ###  Exploratory Data Analysis (EDA)
 
 - Top 10 products by quantity sold
-- Monthly revenue trends (peaks in Nov & Dec)
+- Monthly revenue trends 
 - Country-wise revenue analysis (excluding UK)
 - Top 10 customers by total revenue
 
