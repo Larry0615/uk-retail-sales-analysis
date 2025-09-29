@@ -103,7 +103,7 @@ Using **Recency**, **Frequency**, and **Monetary** scoring:
 -  Use RFM segmentation for **email marketing and personalization**
 
 ---
-## 📊 Visualizations Created
+##  Visualizations Created
 
 -  Bar chart: Top 10 best-selling products  
 -  Line plot: Monthly sales revenue  
@@ -112,7 +112,7 @@ Using **Recency**, **Frequency**, and **Monetary** scoring:
 -  Pareto curve: Revenue concentration vs. customer base
 
 ---
-## 📂 Repository Structure
+##  Repository Structure
 ```
 uk-retail-sales-analysis/
 │
@@ -133,7 +133,7 @@ uk-retail-sales-analysis/
 ```
 ---
 
-## 🚀 Future Work (Optional)
+##  Future Work (Optional)
 
 - 📊 Develop an interactive **Tableau dashboard**
 - 🔮 Build a **predictive CLV (Customer Lifetime Value)** model
